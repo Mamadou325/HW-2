@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Calculator Input</title>
+</head>
+<body>
+ 
+    <header>
+    <h1> Calculator </h1>
+    </header> 
 
+    <form action="hw2result.php" method="post">
+        <table border="1">
+            <tr>
+            <th>Input 1</th>
+            <th>Operator 1</th>
+            <th>Input 2</th>
+            <th>Operator 2</th>
+            <th>Input 3</th></tr>
+            <tr>
+                <td><input type="text" name="input1" required></td>
+                <td><select name="op1"><option>+</option><option>-</option><option>*</option><option>/</option></select></td>
+                <td><input type="text" name="input2" required></td>
+                <td><select name="op2"><option>+</option><option>-</option><option>*</option><option>/</option></select></td>
+                <td><input type="text" name="input3" required></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="input4" required></td>
+                <td><select name="op3"><option>+</option><option>-</option><option>*</option><option>/</option></select></td>
+                <td><input type="text" name="input5" required></td>
+                <td><select name="op4"><option>+</option><option>-</option><option>*</option><option>/</option></select></td>
+                <td><input type="text" name="input6" required></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="input7" required></td>
+                <td><select name="op5"><option>+</option><option>-</option><option>*</option><option>/</option></select></td>
+                <td><input type="text" name="input8" required></td>
+                <td><select name="op6"><option>+</option><option>-</option><option>*</option><option>/</option></select></td>
+                <td><input type="text" name="input9" required></td>
+            </tr>
+        </table>
+        <br>
+        <input type="submit" value="Calculate">
+    </form>
+</body>
+</html>
